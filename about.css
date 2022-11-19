@@ -1,0 +1,63 @@
+
+
+.creatorpic{
+    width: 40%;
+    max-width: 250px;
+    padding: 5px;
+}
+
+body{
+    background-image: url(./Assets/Film\ wallpaper.png);
+    background-size: cover;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+    text-align: center;
+}
+
+div.creators{
+    display: contents;
+    max-width: fit-content;
+    align-items: center;
+}
+
+.logocard{
+    width: 80%;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+
+
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: lighter;
+    font-size: 2em;
+    margin: 10px;
+}
+
+
+p{
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:350px) {
+    p{
+        font-size: 1.3em;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    h1{
+        font-size: 3em;
+    }
+
+}
+

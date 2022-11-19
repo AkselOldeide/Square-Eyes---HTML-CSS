@@ -1,0 +1,108 @@
+body{
+    height: auto;
+    background-color: #9C7335;
+}
+
+main{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #9C7335;
+    flex-grow: 1;
+}
+
+
+footer{
+    background-color: #B99258;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 8000;
+}
+
+div.banner{
+    background-image: url(./Assets/EEAAO_Background.jpeg);
+    background-size: auto;
+    background-position:center;
+    background-color: black;
+    background-repeat: no-repeat;
+
+}
+
+img.moviebanner{
+    width: 100%;
+    max-width: 600px;
+
+}
+
+h2{
+    font-size: 1.3em;
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+div.movietags{
+    background-color: #FFC46D;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+
+.moviedescription{
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 0;
+}
+
+.tag{
+    padding-top: 5px;
+}
+
+div.footerbuttons{
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction:row;
+}
+
+.addbutton{
+    width: 49%;
+    border-style: none;
+    background-color:#b9925800;
+    padding: 10px;
+}
+
+
+@media screen and (min-width:420px) {
+
+    h2{
+        font-size: 2em;
+    }
+    
+    div.movietags{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    .tag{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    footer{
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        position:fixed;
+        bottom: 0px;
+
+    }
+
+    .cover{
+        overflow: auto;
+        width: auto;
+    }
+
+}

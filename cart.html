@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>     
+    <meta name="Author" id="Aksel Oldeide">
+
+     <!--Stylesheets-->
+     <link rel="stylesheet" href="./headerstyle.css">
+     <link rel="stylesheet" href="./cart.css">
+
+     <!--Fonts, Icons-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+     <!-- font-family: 'Alfa Slab One', cursive;" -->
+
+     <script src="https://kit.fontawesome.com/925aa09c49.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <!--Elements for the mobile view of the page-->
+            <input type="checkbox" id="hamburger" class="hamburger" checked>
+            <label for="hamburger" class="menyknapp"> Menu </label>
+            
+            <div class="mobilmeny">
+                <a href="./index.html" class="mobiletab">Home</a>
+                <a href="./index.html" class="mobiletab">Browse</a>
+                <a href="./contactform.html" class="mobiletab">Contact us</a>
+                <a href="./about.html" class="mobiletab">About</a>
+                <a href="./cart.html" class="mobiletab">Cart</a>
+                <img src="./Assets/Square eyes icon.png" class="logo_in_hamburgermenu">
+            </div>
+    
+            <!--Elements for the desktop view of the page-->
+            <div class="desktopmeny">
+                <a href="./index.html" class="desktopbuttons" class="logobutton"><img src="./Assets/Square eyes icon.png" class="logodesktopicon"></a>
+                <a href="./index.html" class="desktopbuttons" > Browse </a>
+                <a href="./about.html" class="desktopbuttons"> About </a>
+                <a href="./contactform.html" class="desktopbuttons">Contact us</a>
+                <a href="./cart.html" class="desktopbuttons"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </header>
+
+        <main>
+            <h1>Shopping Cart</h1>
+            <section>
+
+                <article class="moviegroup">
+                    <figure>
+                        <img src="./Assets/EEAAO_cover.jpg" class="cover">
+                        <figcaption> Everything Everywhere All at once</figcaption>
+                    </figure>
+                    <aside>
+                        <h3>Daniel Kwan</h3>
+                        <h3>Action/Drama</h3>
+                        <h3>2022</h3>
+                        <h2 class="price">149.99 Nok</h2>
+                        <h2 class="remove">Remove</h2>
+                    </aside>
+                </article>
+
+                <article class="moviegroup">
+                    <figure>
+                        <img src="./Assets/Batman.jfif" class="cover">
+                        <figcaption> The Batman</figcaption>
+                    </figure>
+                    <aside>
+                        <h3>Matt Reeves</h3>
+                        <h3>Action/Drama</h3>
+                        <h3>2022</h3>
+                        <h2 class="price">199.99 Nok</h2>
+                        <h2 class="remove">Remove</h2>
+                    </aside>
+                </article>
+
+                <article class="moviegroup">
+                    <figure>
+                        <img src="./Assets/BattleRoyale.png" class="cover">
+                        <figcaption> Battle Royale</figcaption>
+                    </figure>
+                    <aside>
+                        <h3>Kinji Fukasaku</h3>
+                        <h3>Action/Thriller</h3>
+                        <h3>2002</h3>
+                        <h2 class="price">69.99 Nok</h2>
+                        <h2 class="remove">Remove</h2>
+                    </aside>
+                </article>
+
+            </section>
+        </main>
+
+        <footer>
+            <a>Check out</a>
+        </footer>
+
+    </body>
+</html>
