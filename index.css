@@ -5,7 +5,7 @@ body{
 }
 
 main{
-    background-image:url(./Assets/Film\ wallpaper.png);
+    background-color: #FFDFAF;
     background-repeat: repeat-y;
     height: 100%;
     overflow-y: auto;
@@ -82,26 +82,16 @@ div a{
 }
 
 
-
-h1{
-    padding-left: 5px;
-    padding-top: 10px;
-    margin: 0;
-    font-size: 4em;
-    font-family: 'Alfa Slab One', cursive;
-    font-weight: 100;
-}
-
-
 figcaption{
     font-family: 'Alfa Slab One', cursive;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .cover{
-    width:258px;
-    height:384px;
+    width: 168px;
+    height: 250px;
 }
+
 
 figure{
     display: flex;
@@ -111,11 +101,23 @@ figure{
     word-wrap: break-word;
 }
 
+h1{
+    padding-left: 5px;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    color:#a27127 ;
+    text-shadow: 4px 4px 4px black;
+}
+
 h2{
     font-size: 3em;
     font-family: 'Righteous', cursive;
-    color: #a27127;
-    text-shadow: 3px 3px 2px #000000;
+    color: black;
+    text-shadow: 3px 3px 2px #ffffff;
+    padding-left: 2%;
 }
 .moviegallery{
     display: flex;
@@ -160,11 +162,11 @@ h2{
         border-radius: 8px;
     }
 
-    .cover{
-        width: 168px;
-        height: 250px;
-    }
 
+    .cover{
+        width:258px;
+        height:384px;
+    }
 
 
 }
