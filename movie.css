@@ -9,15 +9,7 @@ main{
     padding: 0;
     background-color: #9C7335;
     flex-grow: 1;
-}
-
-
-footer{
-    background-color: #B99258;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    z-index: 8000;
+    margin-bottom: 10%;
 }
 
 div.banner{
@@ -36,7 +28,7 @@ img.moviebanner{
 }
 
 h2{
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-family: 'Righteous', cursive;
     color: black;
 }
@@ -45,12 +37,13 @@ div.movietags{
     background-color: #FFC46D;
     color: white;
     font-family: 'Righteous', cursive;
+    font-size: 2em;
 }
 
 
 .moviedescription{
     font-family: 'Righteous', cursive;
-    font-size: 1em;
+    font-size: 2em;
     padding: 0px 20px 0px 20px;
     margin-bottom: 0;
 }
@@ -66,18 +59,39 @@ div.footerbuttons{
     flex-direction:row;
 }
 
+
+footer{
+    background-color: #B99258;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 8000;
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
+    height: fit-content;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+
+
 .addbutton{
     width: 49%;
     border-style: none;
+    color: white;
     background-color:#b9925800;
     padding: 10px;
 }
 
+.addbutton:hover{
+    color: black;
+}
 
-@media screen and (min-width:420px) {
+
+@media screen and (min-width:768px) {
 
     h2{
-        font-size: 2em;
+        font-size: 1.8em;
     }
     
     div.movietags{
@@ -91,14 +105,6 @@ div.footerbuttons{
         padding-right: 5px;
     }
 
-    footer{
-        align-self: center;
-        align-items: center;
-        align-content: center;
-        position:fixed;
-        bottom: 0px;
-
-    }
 
     .cover{
         overflow: auto;
