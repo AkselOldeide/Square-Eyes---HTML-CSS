@@ -81,16 +81,13 @@ div a{
     padding:40px;
 }
 
-div img{
-    max-width:70px;
-}
+
 
 h1{
-padding-left: 5px;
-padding-top: 10px;
-margin: 0;
-font-size: 4em;
-
+    padding-left: 5px;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 4em;
 }
 
 
@@ -100,8 +97,8 @@ figcaption{
 }
 
 .cover{
-    width: 129px;
-    height: 192px;
+    width:129px +30vw;
+    height:192px +30vw;
 }
 
 figure{
@@ -113,7 +110,6 @@ figure{
 }
 
 .moviegallery{
-    height:fit-content;
     display: flex;
     flex-direction: row;
     overflow: auto;
@@ -133,7 +129,7 @@ a:hover{
     width: 0;
 }
 
-@media screen and (min-width:420px){
+@media screen and (min-width:768px){
     figure img{
         width: 150px; 
         height: auto;    
@@ -158,4 +154,7 @@ a:hover{
         width: 168px;
         height: 250px;
     }
+
+
+
 }

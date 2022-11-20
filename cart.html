@@ -50,10 +50,9 @@
             </div>
         </header>
 
+        <h1>Shopping Cart</h1>
         <main>
-            <h1>Shopping Cart</h1>
-            <section>
-
+            <section class="coverart">
                 <article class="moviegroup">
                     <figure>
                         <img src="./Assets/EEAAO_cover.jpg" class="cover">
@@ -97,10 +96,38 @@
                 </article>
 
             </section>
+
+            <section class="pricesummary">
+                <ul>
+                    <li>Everything Everywhere All at once (2022) <span>149.99 Nok</span></li>
+                    <li>The Batman (2022) <span>199.99 Nok</span></li>
+                    <li>Battle Royale (2002) <span>69.99 Nok</span></li>
+                </ul>
+                <p class="fullprice">Tax (25%) <span>104.99 Nok</span> </p>
+                <p class="fullprice">Total amount <span>419,97 Nok</span> </p>
+                <div class="payment">
+                    <form>
+                        <label for="paymentoption"><h2>Payment Option:</h2></label>
+                        <select name="paymentoption" id="paymentoption">
+                            <option value="Paypal">Paypal</option>
+                            <option value="Vipps">Vipps</option>
+                            <option value="Card">Visa/Mastercard</option>
+                        </select>
+                    </form>
+                    <input type="checkbox" value="agreetoterms" id="agreetoterms">
+                    <label for="agreetoterms" class="terms">I agree with: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</label>
+                </div>
+                <div class="checkout">
+                <a class="paybutton">Confirm payment</a>
+                </div>
+            </section>
         </main>
 
         <footer>
-            <a>Check out</a>
+            <div class="mobilepaymentbutton">
+                <p>419,97 Nok</p>
+                <a href="./checkout.html" class="checkoutmobile" >Check out</a>
+             </div>
         </footer>
 
     </body>
