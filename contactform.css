@@ -4,6 +4,10 @@ body{
     background-blend-mode: lighten;
 }
 
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+}
 
 form{
     display: flex;
@@ -16,6 +20,7 @@ form{
 
 label{
     margin-bottom: 2px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .submitbutton{
@@ -37,7 +42,9 @@ main{
     color: black;
     background-color:#efca94;
     display: inline-block;
-    margin:5px
+    margin:5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
 }
 
 .contactbuttons{
