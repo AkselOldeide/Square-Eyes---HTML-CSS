@@ -1,85 +1,92 @@
-<html>
-<head>
-    <link rel="stylesheet" href="./contactform.css">
-    <link rel="stylesheet" href="./headerstyle.css">
-    <script src="https://kit.fontawesome.com/925aa09c49.js" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>     
+        <meta name="Author" id="Aksel Oldeide">
 
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-</head>
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="./contactform.css">
+        <link rel="stylesheet" href="./headerstyle.css">
 
-<body>
+        <!--Fonts, Icons-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
-    <header>
-        <!--Elements for the mobile view of the page-->
-        <input type="checkbox" id="hamburger" class="hamburger" checked>
-        <label for="hamburger" class="menyknapp"> Menu </label>
-        
-        <div class="mobilmeny">
-            <a href="./index.html" class="mobiletab">Home</a>
-            <a href="./index.html" class="mobiletab">Browse</a>
-            <a href="./contactform.html" class="mobiletab">Contact us</a>
-            <a href="./about.html" class="mobiletab">About</a>
-            <a href="./cart.html" class="mobiletab">Cart</a>
-            <img src="./Assets/Square eyes icon.png" class="logo_in_hamburgermenu">
-        </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+        <!-- font-family: 'Alfa Slab One', cursive;" -->
 
-        <!--Elements for the desktop view of the page-->
-        <div class="desktopmeny">
-            <a href="./index.html" class="desktopbuttons" class="logobutton"><img src="./Assets/Square eyes icon.png" class="logodesktopicon"></a>
-            <a href="./index.html" class="desktopbuttons" > Browse </a>
-            <a href="./about.html" class="desktopbuttons"> About </a>
-            <a href="./contactform.html" class="desktopbuttons">Contact us</a>
-            <a href="./cart.html" class="desktopbuttons"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
-    </header>
+        <script src="https://kit.fontawesome.com/925aa09c49.js" crossorigin="anonymous"></script>
+    </head>
 
-    <main id="socials" class="socials">
-        <h1>Contact</h1>
-        <p>Do you have any questions or issues related to our service. Feel free to reach out to us via our contact form, or reach us via phone, mail or social networks </p>
+    <body>
 
-        <section class="contactbuttons">
-
-            <div id="row">
-                <a href="https://www.facebook.com" class="socialbutton">Facebook</a>
-                <a href="https://www.instagram.com"  class="socialbutton">Instagram</a>
+        <header>
+            <!--Elements for the mobile view of the page-->
+            <input type="checkbox" id="hamburger" class="hamburger" checked>
+            <label for="hamburger" class="menyknapp"> Menu </label>
+            
+            <div class="mobilmeny">
+                <a href="./index.html" class="mobiletab">Home</a>
+                <a href="./index.html" class="mobiletab">Browse</a>
+                <a href="./contactform.html" class="mobiletab">Contact us</a>
+                <a href="./about.html" class="mobiletab">About</a>
+                <a href="./cart.html" class="mobiletab">Cart</a>
+                <img src="./Assets/Square eyes icon.png" class="logo_in_hamburgermenu">
             </div>
 
-            <div id="row">
-                <a href="tel:98877665" class="socialbutton">Phone</a>
-                <a href="mailto:support@squareeyes.com" class="socialbutton">Mail</a>
+            <!--Elements for the desktop view of the page-->
+            <div class="desktopmeny">
+                <a href="./index.html" class="desktopbuttons" class="logobutton"><img src="./Assets/Square eyes icon.png" class="logodesktopicon"></a>
+                <a href="./index.html" class="desktopbuttons" > Browse </a>
+                <a href="./about.html" class="desktopbuttons"> About </a>
+                <a href="./contactform.html" class="desktopbuttons">Contact us</a>
+                <a href="./cart.html" class="desktopbuttons"><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
+        </header>
 
-        </section>
+        <main id="socials" class="socials">
+            <h1>Contact</h1>
+            <p>Do you have any questions or issues related to our service. Feel free to reach out to us via our contact form, or reach us via phone, mail or social networks </p>
 
-        <form class="inputs">
-            <label for="name">Full name</label>
-            <input type="text" id="name" placeholder="E.g. John Smith">
+            <section class="contactbuttons">
 
-            <label for="mailaddress">Mail address</label>
-            <input type="email" id="mailaddress" placeholder="E.g. JohnSmith@super.com">
+                <div id="row">
+                    <a href="https://www.facebook.com" class="socialbutton">Facebook</a>
+                    <a href="https://www.instagram.com"  class="socialbutton">Instagram</a>
+                </div>
 
-            <label for="kategori">Category</label>
-            <select name="kategori" id="kategori">
-                <option value="Problemer_med_tjeneste">Issues with service</option>
-                <option value="Filmforslag">Request a movie</option>
-                <option value="Tilbakemelding">Feedback</option>
-                <option value="Andre_henvendelser">Other requests</option>
-            </select>
+                <div id="row">
+                    <a href="tel:98877665" class="socialbutton">Phone</a>
+                    <a href="mailto:support@squareeyes.com" class="socialbutton">Mail</a>
+                </div>
 
-            <label for="description">Description</label>
-            <textarea type="text" id="description" class="description" placeholder="A detailed description of the request or issue"></textarea>
-            <input type="submit" class="submitbutton" name="submit">
-        </form>
-    </main>
-</body>
+            </section>
 
+            <form class="inputs">
+                <label for="name">Full name</label>
+                <input type="text" id="name" placeholder="E.g. John Smith">
 
+                <label for="mailaddress">Mail address</label>
+                <input type="email" id="mailaddress" placeholder="E.g. JohnSmith@super.com">
 
+                <label for="kategori">Category</label>
+                <select name="kategori" id="kategori">
+                    <option value="Problemer_med_tjeneste">Issues with service</option>
+                    <option value="Filmforslag">Request a movie</option>
+                    <option value="Tilbakemelding">Feedback</option>
+                    <option value="Andre_henvendelser">Other requests</option>
+                </select>
 
-
-
-
+                <label for="description">Description</label>
+                <textarea type="text" id="description" class="description" placeholder="A detailed description of the request or issue"></textarea>
+                <input type="submit" class="submitbutton" name="submit">
+            </form>
+        </main>
+    </body>
 </html>
