@@ -88,17 +88,19 @@ h1{
     padding-top: 10px;
     margin: 0;
     font-size: 4em;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
 }
 
 
 figcaption{
-    font-family: 'Righteous', cursive;
+    font-family: 'Alfa Slab One', cursive;
     font-size: 2em;
 }
 
 .cover{
-    width:129px +30vw;
-    height:192px +30vw;
+    width:258px;
+    height:384px;
 }
 
 figure{
@@ -109,20 +111,28 @@ figure{
     word-wrap: break-word;
 }
 
+h2{
+    font-size: 3em;
+    font-family: 'Righteous', cursive;
+    color: #a27127;
+    text-shadow: 3px 3px 2px #000000;
+}
 .moviegallery{
     display: flex;
     flex-direction: row;
     overflow: auto;
+    background-color: #6f5b2840;
 }
 
-a{
+.EverythingLink{
     text-decoration: none;
     color: #9C7335;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
-a:hover{
+.EverythingLink:hover{
     transition: 200ms;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar{
